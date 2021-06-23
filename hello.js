@@ -13,3 +13,10 @@ for (var i = 0 ; i<f; i++){
         console.log(i);
     }
 }
+
+
+function div(a,b){
+    console.log(a / b);
+}
+
+div(20,5)
