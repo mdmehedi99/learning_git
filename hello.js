@@ -13,3 +13,14 @@ for (var i = 0 ; i<f; i++){
         console.log(i);
     }
 }
+
+
+function sub(){
+    for(var i = 0; i< 10; i++){
+        if(i%2 == 1){
+            console.log(i);
+        }
+    }
+}
+
+sub()
