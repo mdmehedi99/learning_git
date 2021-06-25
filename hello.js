@@ -15,5 +15,3 @@ for (var i = 0 ; i<f; i++){
 }
 
 
-
-sub()
