@@ -1,26 +1,9 @@
-var a = 10
-var b = 20
-var c = a+b
-console.log(c);
+let height = 20
+let wide = 30
+let base = 25
 
-var d = 30
-var e = 40
-console.log(d * e);
-
-var f = 10
-for (var i = 0 ; i<f; i++){
-    if(i%2 == 0){
-        console.log(i);
-    }
+function areaof(height, width, base){
+    return height * width * base
 }
 
-
-function sub(){
-    for(var i = 0; i< 10; i++){
-        if(i%2 == 1){
-            console.log(i);
-        }
-    }
-}
-
-sub()
+console.log(areaof(10, 20, 30));
