@@ -1,7 +1,7 @@
-var a = 10
-var b = 20
-var c = a+b
-console.log(c);
+let height = 20
+let wide = 30
+let base = 25
+
 
 var d = 30
 var e = 40
@@ -21,4 +21,11 @@ function div(a,b,c){
 }
 
 div(20,5)
+
+
+function areaof(height, width, base){
+    return height * width * base
+}
+
+console.log(areaof(10, 20, 30));
 
