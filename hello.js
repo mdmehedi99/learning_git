@@ -15,3 +15,10 @@ for (var i = 0 ; i<f; i++){
 }
 
 
+
+function div(a,b,c){
+    console.log(a * b / c);
+}
+
+div(20,5)
+
